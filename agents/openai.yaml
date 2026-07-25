@@ -1,0 +1,4 @@
+interface:
+  display_name: "Practice to Principles"
+  short_description: "Turn applied knowledge into durable principles"
+  default_prompt: "Use $practice-to-principles to distill this application into a reusable principle."
