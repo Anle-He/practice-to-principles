@@ -17,6 +17,8 @@ Application episode
       ↓ evidence and reflection
 Candidate principle
       ↓ repeated support + user confirmation
+Activation plan
+      ↓ authorized route + load verification
 Active principle
 ```
 
@@ -25,9 +27,9 @@ The skill:
 - ignores simple lookups, summaries, and episodes without meaningful evidence;
 - records source, scope, triggers, exceptions, support, and counterevidence;
 - merges overlapping observations instead of accumulating duplicates;
-- requires repeated practical support and explicit user confirmation before promotion;
+- requires repeated practical support, explicit user confirmation, and a verified activation route before promotion;
 - preserves rejected or superseded principles instead of silently deleting history;
-- never rewrites system instructions, project rules, or external memory automatically.
+- never rewrites system instructions, project rules, or external memory without target-specific authorization.
 
 ### Structure
 
@@ -42,7 +44,7 @@ practice-to-principles/
     └── retired.md
 ```
 
-The core prompt stays intentionally small. Accumulated knowledge lives in reference files and is loaded only when relevant.
+The core prompt stays intentionally small. `active.md` is the canonical registry, not a global context source. A confirmed principle becomes active only after a concise execution hook is installed in a workflow that naturally loads it before the relevant action. Confirmed principles without a route remain `confirmed-unrouted` candidates.
 
 The reference files may accumulate personal context. Review their contents before publishing later updates.
 
@@ -79,6 +81,8 @@ It can also be invoked implicitly after a knowledge framework materially affects
     ↓ 结果证据与复盘
 候选原则
     ↓ 重复支持 + 用户确认
+激活计划
+    ↓ 授权路由 + 加载验证
 生效原则
 ```
 
@@ -87,9 +91,9 @@ It can also be invoked implicitly after a knowledge framework materially affects
 - 忽略单纯查询、内容概括以及缺少有效证据的应用；
 - 记录来源、适用范围、触发条件、例外、支持证据与反证；
 - 合并重复认识，避免原则无限堆积；
-- 仅在多次实践支持且用户明确确认后晋升原则；
+- 仅在多次实践支持、用户明确确认且激活路由验证通过后晋升原则；
 - 保留被否定或替代的原则，不静默抹除历史；
-- 不自动改写系统指令、项目规则或外部记忆。
+- 未经目标级明确授权，不改写系统指令、项目规则或外部记忆。
 
 ### 文件结构
 
@@ -104,7 +108,7 @@ practice-to-principles/
     └── retired.md
 ```
 
-核心 prompt 有意保持精简。积累的知识存放在引用文件中，仅在相关任务里按需读取。
+核心 prompt 有意保持精简。`active.md` 是原则的唯一事实来源，并不是全局上下文。确认后的原则只有在相关工作流中安装精简执行钩子、且验证该工作流会在行动前自然加载它之后，才算 active；没有路由的确认原则继续保留为 `confirmed-unrouted` 候选。
 
 引用文件可能逐渐包含个人情境；以后发布更新前，应先检查其中的内容。
 
