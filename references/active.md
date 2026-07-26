@@ -12,6 +12,8 @@ Read only principles relevant to the current task. Anle has confirmed every entr
 - **Exceptions**:
 - **Evidence**:
 - **Confidence**:
+- **Activation targets**:
+- **Activation status**: routed
 - **Promoted**:
 
 No active principles yet.

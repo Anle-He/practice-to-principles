@@ -11,6 +11,8 @@ Keep rejected and superseded principles here so later work does not silently rev
 - **Retired because**:
 - **Evidence**:
 - **Replacement**:
+- **Former activation targets**:
+- **Route cleanup**:
 - **Retired**:
 
 No retired principles yet.
